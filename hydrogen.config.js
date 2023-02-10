@@ -10,12 +10,9 @@ export default defineConfig({
     // Oxygen?.env?.PUBLIC_STORE_DOMAIN || 'hydrogen-preview.myshopify.com',
     storefrontToken:
 
-      // @ts-ignore 3b580e70970c4528da70c98e097c2fa0
-      Oxygen?.env?.PUBLIC_STOREFRONT_API_TOKEN ||
-      ' ab2ec99a2a7ec0c085295a8a8329976d',
-
-    // Oxygen?.env?.PUBLIC_STOREFRONT_API_TOKEN ||
-    // ' 3b580e70970c4528da70c98e097c2fa0',
+      // @ts-ignore Your STOREFRONT API-TOKEN HERE
+     Oxygen?.env?.PUBLIC_STOREFRONT_API_TOKEN ||
+    ' 3b580e70970c4528da70c98e097c2fa0',
     privateStorefrontToken:
       // @ts-ignore
       Oxygen?.env?.PRIVATE_STOREFRONT_API_TOKEN,
